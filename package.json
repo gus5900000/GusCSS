@@ -1,9 +1,4 @@
 {
-  "scripts": {
-    "build": "npm run vercel-build",
-    "vercel-build": "webpack --mode production"
-  },
-
   "dependencies": {
     "guscss": "^1.0.6"
   }
