@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GusCSS - Visibilité</title>
+  <link rel="stylesheet" href="../../node_modules/guscss/dist/style.css" />
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="../home.html" class="navbar-brand">GusCSS</a>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../home.html" class="nav-link">Installation</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Composants</a>
+            <div class="dropdown-menu">
+              <a href="./grid.html" class="dropdown-item">Grille</a>
+              <a href="./button.html" class="dropdown-item">Boutons</a>
+              <a href="./image.html" class="dropdown-item">Images</a>
+              <a href="./colors.html" class="dropdown-item">Couleurs</a>
+              <a href="./alerts.html" class="dropdown-item">Alertes</a>
+              <a href="./visibility.html" class="dropdown-item">Visibilité</a>
+              <a href="./modal.html" class="dropdown-item">Modal</a>
+              <a href="./tabs.html" class="dropdown-item">Onglets</a>
+              <a href="./tooltips.html" class="dropdown-item">Tooltips</a>
+              <a href="./cards.html" class="dropdown-item">Cartes</a>
+              <a href="./padding-margin.html" class="dropdown-item">Padding & Margin</a>
+              <a href="./badges.html" class="dropdown-item">Badges</a>
+              <a href="./spinners.html" class="dropdown-item">Spinners</a>
+              <a href="./accordion.html" class="dropdown-item">Accordéon</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="m-3">GusCSS - Documentation de la Visibilité</h1>
+
+    <div class="card">
+      <h2 class="card-title">Classes Visible sur Différents Appareils</h2>
+      <div class="visibility-example visible-xs">Visible sur extra small devices and up</div>
+      <div class="visibility-example visible-sm">Visible sur small devices and up</div>
+      <div class="visibility-example visible-md">Visible sur medium devices and up</div>
+      <div class="visibility-example visible-lg">Visible sur large devices and up</div>
+      <div class="visibility-example visible-xl">Visible sur extra large devices and up</div>
+      <div class="visibility-example visible-xxl">Visible sur extra extra large devices and up</div>
+      <h3>Exemple de Code</h3>
+      <pre><code>&lt;div class="visible-xs"&gt;Visible sur extra small devices and up&lt;/div&gt;
+&lt;div class="visible-sm"&gt;Visible sur small devices and up&lt;/div&gt;
+&lt;div class="visible-md"&gt;Visible sur medium devices and up&lt;/div&gt;
+&lt;div class="visible-lg"&gt;Visible sur large devices and up&lt;/div&gt;
+&lt;div class="visible-xl"&gt;Visible sur extra large devices and up&lt;/div&gt;
+&lt;div class="visible-xxl"&gt;Visible sur extra extra large devices and up&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Classes Cachées sur Différents Appareils</h2>
+      <div class="visibility-example hidden-xs">Hidden on extra small devices</div>
+      <div class="visibility-example hidden-sm">Hidden on small devices</div>
+      <div class="visibility-example hidden-md">Hidden on medium devices</div>
+      <div class="visibility-example hidden-lg">Hidden on large devices</div>
+      <div class="visibility-example hidden-xl">Hidden on extra large devices</div>
+      <div class="visibility-example hidden-xxl">Hidden on extra extra large devices</div>
+      <h3>Exemple de Code</h3>
+      <pre><code>&lt;div class="hidden-xs"&gt;Hidden on extra small devices&lt;/div&gt;
+&lt;div class="hidden-sm"&gt;Hidden on small devices&lt;/div&gt;
+&lt;div class="hidden-md"&gt;Hidden on medium devices&lt;/div&gt;
+&lt;div class="hidden-lg"&gt;Hidden on large devices&lt;/div&gt;
+&lt;div class="hidden-xl"&gt;Hidden on extra large devices&lt;/div&gt;
+&lt;div class="hidden-xxl"&gt;Hidden on extra extra large devices&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Classes Visibles ou Cachées lors de l'Impression</h2>
+      <div class="visibility-example visible-print">Visible only when printing</div>
+      <div class="visibility-example hidden-print">Hidden when printing</div>
+      <h3>Exemple de Code</h3>
+      <pre><code>&lt;div class="visible-print"&gt;Visible only when printing&lt;/div&gt;
+&lt;div class="hidden-print"&gt;Hidden when printing&lt;/div&gt;</code></pre>
+    </div>
+  </div>
+
+
+  <script type="module" src="../../node_modules/guscss/dist/js/bundle.js"></script>
+</body>
+</html>

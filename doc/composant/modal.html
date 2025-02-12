@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GusCSS - Modale</title>
+  <link rel="stylesheet" href="../../node_modules/guscss/dist/style.css" />
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="../home.html" class="navbar-brand">GusCSS</a>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="../home.html" class="nav-link">Installation</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Composants</a>
+                <div class="dropdown-menu">
+                  <a href="./grid.html" class="dropdown-item">Grille</a>
+                  <a href="./button.html" class="dropdown-item">Boutons</a>
+                  <a href="./image.html" class="dropdown-item">Images</a>
+                  <a href="./colors.html" class="dropdown-item">Couleurs</a>
+                  <a href="./alerts.html" class="dropdown-item">Alertes</a>
+                  <a href="./visibility.html" class="dropdown-item">Visibilité</a>
+                  <a href="./modal.html" class="dropdown-item">Modal</a>
+                  <a href="./tabs.html" class="dropdown-item">Onglets</a>
+                  <a href="./tooltips.html" class="dropdown-item">Tooltips</a>
+                  <a href="./cards.html" class="dropdown-item">Cartes</a>
+                  <a href="./padding-margin.html" class="dropdown-item">Padding & Margin</a>
+                  <a href="./badges.html" class="dropdown-item">Badges</a>
+                  <a href="./spinners.html" class="dropdown-item">Spinners</a>
+                  <a href="./accordion.html" class="dropdown-item">Accordéon</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="m-3">GusCSS - Documentation des Modales</h1>
+      
+        <div class="card">
+          <h2 class="card-title">Exemple de Modale</h2>
+          <button class="btn btn-primary" data-target="#exampleModal">Open Modal</button>
+      
+          <div id="exampleModal" class="modal">
+            <div class="modal-content bg-dark">
+              <div class="modal-header">
+                <h2 class="modal-title">Modal Title</h2>
+                <button class="popin-dismiss">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p>Contenu de la modale ici. Vous pouvez inclure du texte, des images, ou tout autre contenu HTML.</p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>Colonne 1: Ceci est du contenu dans la première colonne.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <p>Colonne 2: Ceci est du contenu dans la deuxième colonne.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p>Colonne 3: Plus de contenu dans une colonne plus petite.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p>Colonne 4: Encore plus de contenu ici.</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p>Colonne 5: Dernière colonne avec du contenu.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <h3>Exemple de Code</h3>
+          <pre><code>&lt;!-- Bouton pour ouvrir la modale --&gt;
+      &lt;button class="btn btn-primary" data-target="#exampleModal"&gt;Open Modal&lt;/button&gt;
+      
+      &lt;!-- Modale --&gt;
+      &lt;div id="exampleModal" class="modal"&gt;
+        &lt;div class="modal-content"&gt;
+          &lt;div class="modal-header"&gt;
+            &lt;h2 class="modal-title"&gt;Modal Title&lt;/h2&gt;
+            &lt;button class="popin-dismiss"&gt;&times;&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;div class="modal-body"&gt;
+            &lt;p&gt;Contenu de la modale ici. Vous pouvez inclure du texte, des images, ou tout autre contenu HTML.&lt;/p&gt;
+            &lt;!-- Exemple de grille à l'intérieur de la modale --&gt;
+            &lt;div class="container"&gt;
+              &lt;div class="row"&gt;
+                &lt;div class="col-md-6"&gt;
+                  &lt;p&gt;Colonne 1: Ceci est du contenu dans la première colonne.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-6"&gt;
+                  &lt;p&gt;Colonne 2: Ceci est du contenu dans la deuxième colonne.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="row"&gt;
+                &lt;div class="col-md-4"&gt;
+                  &lt;p&gt;Colonne 3: Plus de contenu dans une colonne plus petite.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                  &lt;p&gt;Colonne 4: Encore plus de contenu ici.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-4"&gt;
+                  &lt;p&gt;Colonne 5: Dernière colonne avec du contenu.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;</code></pre>
+        </div>
+      </div>
+      
+  <script type="module" src="../../node_modules/guscss/dist/js/bundle.js"></script>
+</body>
+</html>

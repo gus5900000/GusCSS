@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GusCSS - Couleurs</title>
+  <link rel="stylesheet" href="../../node_modules/guscss/dist/style.css" />
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+          <a href="../home.html" class="navbar-brand">GusCSS</a>
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="../home.html" class="nav-link">Installation</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Composants</a>
+                <div class="dropdown-menu">
+                  <a href="./grid.html" class="dropdown-item">Grille</a>
+                  <a href="./button.html" class="dropdown-item">Boutons</a>
+                  <a href="./image.html" class="dropdown-item">Images</a>
+                  <a href="./colors.html" class="dropdown-item">Couleurs</a>
+                  <a href="./alerts.html" class="dropdown-item">Alertes</a>
+                  <a href="./visibility.html" class="dropdown-item">Visibilité</a>
+                  <a href="./modal.html" class="dropdown-item">Modal</a>
+                  <a href="./tabs.html" class="dropdown-item">Onglets</a>
+                  <a href="./tooltips.html" class="dropdown-item">Tooltips</a>
+                  <a href="./cards.html" class="dropdown-item">Cartes</a>
+                  <a href="./padding-margin.html" class="dropdown-item">Padding & Margin</a>
+                  <a href="./badges.html" class="dropdown-item">Badges</a>
+                  <a href="./spinners.html" class="dropdown-item">Spinners</a>
+                  <a href="./accordion.html" class="dropdown-item">Accordéon</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container bg-dark mt-3">
+        <h1 class="m-3">GusCSS - Documentation des Couleurs</h1>
+    
+        <div class="card">
+          <h2 class="card-title">Couleurs de Texte</h2>
+          <p class="text-muted">Muted text</p>
+          <p class="text-primary">Primary text</p>
+          <p class="text-secondary">Secondary text</p>
+          <p class="text-success">Success text</p>
+          <p class="text-danger">Danger text</p>
+          <p class="text-warning">Warning text</p>
+          <p class="text-info">Info text</p>
+          <p class="text-light">Light text</p>
+          <p class="text-dark">Dark text</p>
+          <h3>Exemple de Code</h3>
+          <pre><code>&lt;p class="text-muted"&gt;Muted text&lt;/p&gt;
+&lt;p class="text-primary"&gt;Primary text&lt;/p&gt;
+&lt;p class="text-secondary"&gt;Secondary text&lt;/p&gt;
+&lt;p class="text-success"&gt;Success text&lt;/p&gt;
+&lt;p class="text-danger"&gt;Danger text&lt;/p&gt;
+&lt;p class="text-warning"&gt;Warning text&lt;/p&gt;
+&lt;p class="text-info"&gt;Info text&lt;/p&gt;
+&lt;p class="text-light"&gt;Light text&lt;/p&gt;
+&lt;p class="text-dark"&gt;Dark text&lt;/p&gt;</code></pre>
+        </div>
+    
+        <div class="card">
+          <h2 class="card-title">Couleurs de Fond</h2>
+          <div class="bg-primary text-white color-box">Primary</div>
+          <div class="bg-secondary text-white color-box">Secondary</div>
+          <div class="bg-success text-white color-box">Success</div>
+          <div class="bg-danger text-white color-box">Danger</div>
+          <div class="bg-warning text-dark color-box">Warning</div>
+          <div class="bg-info text-white color-box">Info</div>
+          <div class="bg-light text-dark color-box">Light</div>
+          <div class="bg-dark text-white color-box">Dark</div>
+          <h3>Exemple de Code</h3>
+          <pre><code>&lt;div class="bg-primary text-white"&gt;Primary&lt;/div&gt;
+&lt;div class="bg-secondary text-white"&gt;Secondary&lt;/div&gt;
+&lt;div class="bg-success text-white"&gt;Success&lt;/div&gt;
+&lt;div class="bg-danger text-white"&gt;Danger&lt;/div&gt;
+&lt;div class="bg-warning text-dark"&gt;Warning&lt;/div&gt;
+&lt;div class="bg-info text-white"&gt;Info&lt;/div&gt;
+&lt;div class="bg-light text-dark"&gt;Light&lt;/div&gt;
+&lt;div class="bg-dark text-white"&gt;Dark&lt;/div&gt;</code></pre>
+        </div>
+      </div>
+
+  <script type="module" src="../../node_modules/guscss/dist/js/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GusCSS - Documentation</title>
+  <link rel="stylesheet" href="../node_modules/guscss/dist/style.css" />
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="./home.html" class="navbar-brand">GusCSS</a>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../home.html" class="nav-link">Installation</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Composants</a>
+            <div class="dropdown-menu">
+              <a href="./composant/grid.html" class="dropdown-item">Grille</a>
+              <a href="./composant/button.html" class="dropdown-item">Boutons</a>
+              <a href="./composant/image.html" class="dropdown-item">Images</a>
+              <a href="./composant/colors.html" class="dropdown-item">Couleurs</a>
+              <a href="./composant/alerts.html" class="dropdown-item">Alertes</a>
+              <a href="./composant/visibility.html" class="dropdown-item">Visibilité</a>
+              <a href="./composant/modal.html" class="dropdown-item">Modal</a>
+              <a href="./composant/tabs.html" class="dropdown-item">Onglets</a>
+              <a href="./composant/tooltips.html" class="dropdown-item">Tooltips</a>
+              <a href="./composant/cards.html" class="dropdown-item">Cartes</a>
+              <a href="./composant/padding-margin.html" class="dropdown-item">Padding & Margin</a>
+              <a href="./composant/badges.html" class="dropdown-item">Badges</a>
+              <a href="./composant/spinners.html" class="dropdown-item">Spinners</a>
+              <a href="./composant/accordion.html" class="dropdown-item">Accordéon</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="m-3">GusCSS - Documentation</h1>
+
+    <div id="installation" class="card">
+      <h2 class="card-title">Introduction</h2>
+      <p>Bienvenue dans le guide d'installation de GusCSS. Ce guide vous aidera à installer et configurer GusCSS dans votre projet.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Étape 1 : Installer GusCSS via NPM</h2>
+      <p class="pb-3">Pour commencer, ouvrez votre terminal et naviguez jusqu'au répertoire de votre projet. Ensuite, exécutez la commande suivante pour installer GusCSS :</p>
+      <pre><code>npm install guscss</code></pre>
+      <p class="pt-3">Cette commande téléchargera et installera GusCSS ainsi que toutes ses dépendances.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Étape 2 : Inclure GusCSS dans votre projet</h2>
+      <p class="pb-3">Une fois l'installation terminée, vous devez inclure les fichiers CSS et JavaScript de GusCSS dans votre projet.</p>
+
+      <h3>Inclure le fichier CSS</h3>
+      <p class="pb-3 pt-1">Ajoutez la ligne suivante dans la section <code>&lt;head&gt;</code> de votre fichier HTML pour inclure le fichier CSS de GusCSS :</p>
+      <pre><code>&lt;link rel="stylesheet" href="node_modules/guscss/dist/style.css"&gt;</code></pre>
+
+      <h3>Inclure le fichier JavaScript</h3>
+      <p class="pb-3 pt-1">Ajoutez la ligne suivante juste avant la balise de fermeture <code>&lt;/body&gt;</code> de votre fichier HTML pour inclure le fichier JavaScript de GusCSS :</p>
+      <pre><code>&lt;script type="module" src="node_modules/guscss/dist/js/bundle.js"&gt;&lt;/script&gt;</code></pre>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Étape 3 : Vérifier l'installation</h2>
+      <p class="pb-3">Pour vérifier que GusCSS est correctement installé, ouvrez votre fichier HTML dans un navigateur et assurez-vous que les styles et les composants fonctionnent comme prévu.</p>
+      <p>Si vous rencontrez des problèmes, assurez-vous que les chemins vers les fichiers CSS et JavaScript sont corrects et que les fichiers sont bien présents dans le répertoire <code>node_modules/guscss/dist/</code>.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Étape 4 : Explorer les composants</h2>
+      <p>Maintenant que GusCSS est installé, vous pouvez commencer à utiliser les différents composants disponibles. Consultez la documentation des composants pour plus d'informations sur chaque élément.</p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Conclusion</h2>
+      <p>Félicitations ! Vous avez réussi à installer GusCSS. Vous êtes maintenant prêt à utiliser les composants et styles de GusCSS pour créer des interfaces utilisateur modernes et réactives.</p>
+    </div>
+  </div>
+
+  <script type="module" src="../node_modules/guscss/dist/js/bundle.js"></script>
+</body>
+</html>
