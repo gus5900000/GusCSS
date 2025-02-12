@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "vercel-build": "echo 'No build step required'"
+  },
   "dependencies": {
     "guscss": "^1.0.6"
   }
